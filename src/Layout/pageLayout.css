@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* > * {
+    font-family: "Poppins", cursive;
+    margin: 0;
+}
+
+div.layout-container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    background-color: silver;
+}
+
+div.sidebar {
+    display: flex;
+    height: 100vh;
+    width: 15%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+}
+
+div.right-side-container {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-items {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.active {
+    color: blue;
+}
+
+div.content {
+    display: flex;
+    height: 80%;
+    align-items: center;
+    justify-content: center;
+}
+
+div.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 10%;
+    background-color: gray;
+}
+
+div.footer {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 20px;
+    height: 10%;
+    background-color: gray;
+}
